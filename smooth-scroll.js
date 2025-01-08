@@ -1,4 +1,6 @@
 function smoothScroll(target, options) {
+    console.log('target', target)
+    console.log('options', options)
 
     if (target === document)
       target = (document.scrollingElement || document.documentElement || document.body.parentNode || document.body);
